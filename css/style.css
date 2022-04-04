@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(5, 4, 4);
+}
+
+/* login */
+.box-login, .box-cadastrar, .box-inserir, .box-alterar {
+    margin-top: 6%;
+}
+
+.box-admin, .box-user {
+    width: 50vw;
+    background-color: rgb(220, 222, 223);
+    text-align: center;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.form-signin {
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-signin .form-control {
+    margin-bottom: 4px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+    background-color: rgb(5, 4, 4);
+}
+
+.form-signin input {
+    border-radius: 5px;
+    background-color: rgb(5, 4, 4);
+}
+
+.form-signin input:hover {
+    background-color: rgb(5, 4, 4);
+}
+
+.span-rm {
+    text-align: center;
+    color: aliceblue;
+}
+
+button[type="submit"] {
+    background-color: rgb(119, 26, 206);
+    color: rgb(235, 230, 224);
+}
+
+p, a {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+a {
+    font-size: 15px;
+    color: rgb(141, 76, 226);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(220, 222, 223);
+    text-align: center;
+    font-size: 45px;
+    margin: 40px 0px 40px 0px;
+}
+
+h3 {
+    color: rgb(220, 222, 223);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: rgb(220, 222, 223);
+    text-align: center;
+}
+
+.nome {
+    color: blueviolet;
+}
